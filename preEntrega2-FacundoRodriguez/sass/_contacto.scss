@@ -1,4 +1,6 @@
 @use 'variables';
+/*  <-------------- DESKTOP -------------->*/
+
 .contacto{
 	display: flex;
 	align-items: center;
@@ -45,6 +47,7 @@ padding: 15px 25px 15px 25px;
     font-weight: bold;
 }
 
+/*  <-------------- MOBILE -------------->*/
 
 @media screen and (max-width: 480px) {
 

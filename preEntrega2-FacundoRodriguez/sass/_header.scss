@@ -1,6 +1,6 @@
 @use 'variables';
 
-/*DESKTOP*/
+/*  <-------------- DESKTOP -------------->*/
 .container-fluid {
 	background: variables.$background_hea_foo;
 	padding: 0;
@@ -23,7 +23,8 @@
 	}
 }
 
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
+
 @media screen and (max-width: 480px) {
 .container-fluid {
 	background: variables.$background_hea_foo;

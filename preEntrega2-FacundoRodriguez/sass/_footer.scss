@@ -1,5 +1,5 @@
 @use 'variables';
-/*DEKSTOP*/
+/*  <-------------- DESKTOP -------------->*/
 .container__footer {
 	display: flex;
 	align-items: center;
@@ -28,8 +28,7 @@
 	color: variables.$font_color;
 }
 
-
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
 
 .container__footer {
 	display: flex;

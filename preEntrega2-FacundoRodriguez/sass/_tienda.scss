@@ -1,6 +1,6 @@
 @use 'variables';
 
-/*DESKTOP*/
+/*  <-------------- DESKTOP -------------->*/
 #navA {
 	color: black;
 	font-size: 30px;
@@ -57,7 +57,7 @@
 }
 
 
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
 
 @media screen and (max-width: 480px) {
 #navA {

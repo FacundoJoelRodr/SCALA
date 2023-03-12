@@ -116,7 +116,7 @@
     transform: translate(15px, 15px);
   }
 }
-/*DEKSTOP*/
+/*  <-------------- DESKTOP -------------->*/
 .container__footer {
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@
   color: #F0F8FF;
 }
 
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
 .container__footer {
   display: flex;
   align-items: center;
@@ -186,7 +186,7 @@
   color: #F0F8FF;
 }
 
-/*DESKTOP*/
+/*  <-------------- DESKTOP -------------->*/
 .container-fluid {
   background: #0e163c;
   padding: 0;
@@ -215,7 +215,7 @@
   color: #00a4e6;
 }
 
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   .container-fluid {
     background: #0e163c;
@@ -236,7 +236,7 @@
     margin-right: 10px;
   }
 }
-/*DESKTOP*/
+/*  <-------------- DESKTOP -------------->*/
 #navA {
   color: black;
   font-size: 30px;
@@ -299,7 +299,7 @@
   height: 70%;
 }
 
-/*MOBILE*/
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   #navA {
     color: black;
@@ -333,6 +333,7 @@
     border-color: #0e163c;
   }
 }
+/*  <-------------- DESKTOP -------------->*/
 .contacto {
   display: flex;
   align-items: center;
@@ -380,6 +381,7 @@
   font-weight: bold;
 }
 
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   .contacto {
     display: flex;
@@ -423,6 +425,7 @@
     font-weight: bold;
   }
 }
+/*  <-------------- DESKTOP -------------->*/
 #image_question {
   width: 100%;
   height: 400px;
@@ -474,6 +477,7 @@ dl {
   font-weight: 500;
 }
 
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   #image_question {
     width: 100%;
@@ -514,6 +518,7 @@ dl {
     font-weight: 500;
   }
 }
+/*  <-------------- DESKTOP -------------->*/
 .main_servicios {
   width: 100%;
 }
@@ -553,7 +558,7 @@ dl {
   width: 100%;
 }
 
-/*mobile*/
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   .main_servicios {
     width: 100%;
@@ -585,7 +590,7 @@ dl {
     width: 100%;
   }
 }
-/*ESCRUCTURA DESKTOP*/
+/*  <-------------- DESKTOP -------------->*/
 * {
   margin: 0;
   padding: 0;
@@ -616,7 +621,7 @@ footer {
   color: #F0F8FF;
 }
 
-/*MOBILE ESCRUCTURA */
+/*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
   #grid_container {
     display: grid;
