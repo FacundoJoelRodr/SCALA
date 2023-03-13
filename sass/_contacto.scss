@@ -25,11 +25,11 @@
 }
 
 .imagen__contacto {
-    width: 45vw;
+    width: 50%;
 }
 
 #contact {
-    width: 90%;
+    width: 100%;
 }
 
 .form-group {
@@ -83,7 +83,7 @@
     }
 
     #contact {
-        @include tamanos(100%, 500px);
+        @include tamanos(100%, 700px);
         margin-top: 100px;
     }
 
