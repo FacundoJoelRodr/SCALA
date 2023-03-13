@@ -1,48 +1,57 @@
 @use 'variables';
+
+@mixin tamanos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 /*  <-------------- DESKTOP -------------->*/
 
-.contacto{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 100%;
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
-.div__formulario{
-    width: 50vw;
-}    
-.formulario{
+.div__formulario {
     width: 50vw;
 }
 
-.imagen__contacto{
+.formulario {
+    width: 50vw;
+}
+
+.imagen__contacto {
     width: 45vw;
 }
-#contact{
+
+#contact {
     width: 90%;
 }
 
-.form-group{
-padding: 15px 25px 15px 25px;
+.form-group {
+    padding: 15px 25px 15px 25px;
 }
 
-.titulo_contacto{
+.titulo_contacto {
     font-size: 400;
-    text-align: center; 
+    text-align: center;
     width: 100%;
 }
 
-#enviar_contacto{   
+#enviar_contacto {
     color: white;
     background: variables.$background_hea_foo;
-    &:hover{
-    color: variables.$header_font;
+
+    &:hover {
+        color: variables.$header_font;
     }
 }
 
-.subtitulos{
+.subtitulos {
     padding: 0px 0px 10px 0px;
     font-weight: bold;
 }
@@ -52,7 +61,7 @@ padding: 15px 25px 15px 25px;
 @media screen and (max-width: 480px) {
 
 
-    .contacto{
+    .contacto {
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -60,43 +69,46 @@ padding: 15px 25px 15px 25px;
         width: 100%;
         height: 700px;
     }
-    
-    .div__formulario{
+
+    .div__formulario {
         width: 50%;
-    }    
-    .formulario{
+    }
+
+    .formulario {
         width: 100%;
     }
-    
-    .imagen__contacto{
+
+    .imagen__contacto {
         width: 50%;
         height: 100%;
-        
+        @include tamanos(50%, 100%);
+
     }
-    #contact{
-        width: 100%;
-        height: 700px;
+
+    #contact {
+        @include tamanos(100%, 700px);
     }
-    
-    .form-group{
-    padding: 15px 5px 15px 5px;
+
+    .form-group {
+        padding: 15px 5px 15px 5px;
     }
-    
-    .titulo_contacto{
+
+    .titulo_contacto {
         font-size: 400;
-        text-align: center; 
+        text-align: center;
         width: 100%;
     }
-    
-    #enviar_contacto{   
+
+    #enviar_contacto {
         color: white;
         background: variables.$background_hea_foo;
-        &:hover{
-        color: variables.$header_font;
+
+        &:hover {
+            color: variables.$header_font;
         }
     }
-    
-    .subtitulos{
+
+    .subtitulos {
         padding: 0px 0px 10px 0px;
         font-weight: bold;
     }

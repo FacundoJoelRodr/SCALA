@@ -6,6 +6,7 @@
 @use 'contacto';
 @use 'pregunta';
 @use 'servicios';
+
 /*  <-------------- DESKTOP -------------->*/
 * {
 	margin: 0;
@@ -17,17 +18,20 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, 1fr);
 	grid-template-areas: "header"
-                    "main"
-                    "footer";
+		"main"
+		"footer";
 }
+
 header {
 	grid-area: header;
 }
+
 main {
 	grid-area: main;
 	display: grid;
 	grid-template-rows: 1fr, 1fr, 1fr, 1fr;
 }
+
 footer {
 	grid-area: footer;
 	width: 100%;
@@ -38,27 +42,30 @@ footer {
 
 /*  <-------------- MOBILE -------------->*/
 @media screen and (max-width: 480px) {
-#grid_container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-areas: "header "
-                        "main "
-                        "footer ";
-}
-header {
-	grid-area: header;
-}
-main {
-	grid-area: main;
-	width: 100vw;
-}
-footer {
-	grid-area: footer;
-	width: 100vw;
-	grid-template-columns: 1fr, 1fr, 1fr;
-	display: flex;
-	background-color: variables.$background_hea_foo;
-	color: variables.$font_color;
-}
+	#grid_container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-areas: "header "
+			"main "
+			"footer ";
+	}
+
+	header {
+		grid-area: header;
+	}
+
+	main {
+		grid-area: main;
+		width: 100vw;
+	}
+
+	footer {
+		grid-area: footer;
+		width: 100vw;
+		grid-template-columns: 1fr, 1fr, 1fr;
+		display: flex;
+		background-color: variables.$background_hea_foo;
+		color: variables.$font_color;
+	}
 }

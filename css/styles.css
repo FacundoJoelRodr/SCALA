@@ -243,21 +243,9 @@
   font-weight: 500;
 }
 
-.btn-outline-success {
-  --bs-btn-color: #00a4e6;
-  --bs-btn-border-color: #00a4e6;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #00a4e6;
-  --bs-btn-hover-border-color: #00a4e6;
-  --bs-btn-focus-shadow-rgb: 25, 135, 84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #00a4e6;
-  --bs-btn-active-border-color: #00a4e6;
-  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #00a4e6;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #00a4e6;
-  --bs-gradient: none;
+.btn-outline-success:hover {
+  background-color: #00a4e6;
+  border: 1px solid black;
 }
 
 .col {
@@ -400,6 +388,8 @@
   .imagen__contacto {
     width: 50%;
     height: 100%;
+    width: 50%;
+    height: 100%;
   }
   #contact {
     width: 100%;
@@ -428,7 +418,7 @@
 /*  <-------------- DESKTOP -------------->*/
 #image_question {
   width: 100%;
-  height: 400px;
+  height: 38vw;
   padding: 10px 10px 10px 10px;
 }
 
@@ -463,7 +453,7 @@ dl {
   margin-left: 1vw;
   width: 100%;
   background-color: #0e163c;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
   transition: 1s;
 }
 .dl_principal:hover {
@@ -554,8 +544,8 @@ dl {
 }
 
 .img__servicio {
-  height: 86%;
   width: 100%;
+  height: 86%;
 }
 
 /*  <-------------- MOBILE -------------->*/
@@ -582,12 +572,12 @@ dl {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   .cardbig {
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   .img__servicio {
-    height: 86%;
     width: 100%;
+    height: 86%;
   }
 }
 /*  <-------------- DESKTOP -------------->*/
