@@ -57,12 +57,12 @@ footer {
 
 	main {
 		grid-area: main;
-		width: 100vw;
+		width: 100%;
 	}
 
 	footer {
 		grid-area: footer;
-		width: 100vw;
+		width: 100%;
 		grid-template-columns: 1fr, 1fr, 1fr;
 		display: flex;
 		background-color: variables.$background_hea_foo;
