@@ -7,7 +7,7 @@
 
 /*  <-------------- DESKTOP -------------->*/
 #image_question {
-    @include tamanos(100%, 38vw);
+    @include tamanos(100%, 58vh);
     padding: 10px 10px 10px 10px;
 }
 
@@ -55,7 +55,7 @@
 
 .titulo_preguntas {
     font-size: 150%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .accordion {

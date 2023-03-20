@@ -69,6 +69,8 @@
 @media screen and (max-width: 670px) {
   .introduccion {
     margin-bottom: -45px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
     padding: 50px;
     width: 100%;
@@ -419,7 +421,7 @@
 /*  <-------------- DESKTOP -------------->*/
 #image_question {
   width: 100%;
-  height: 38vw;
+  height: 58vh;
   padding: 10px 10px 10px 10px;
 }
 
@@ -465,7 +467,7 @@
 
 .titulo_preguntas {
   font-size: 150%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .accordion {
